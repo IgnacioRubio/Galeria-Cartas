@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+	<meta charset="UTF-8">
+	<title>Galeria Cartas</title>
+
+	<style type="text/css">
+
+		.imgPrevia{
+			width: 41px;
+			height: 58px;
+			padding-left: 5px;
+			padding-right: 5px;
+
+		}
+		#onStage{
+			width: 166px;
+			height: 232px;
+			margin: auto;
+			display: block;
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		#imgBanner{
+			margin: auto;
+			display: block;
+		}
+
+		#galeria{
+			text-align: center;
+		}
+
+		#bIzq, #bDer{
+			background-color: white;
+			background-position: center;
+			width: 35px;
+			height: 35px;
+			background-repeat: no-repeat;
+			border-radius: 50%;
+		}
+
+		#bIzq{
+			background-image: url('img/fle_izq.png');
+		}
+
+		#bDer{
+			background-image: url('img/fle_der.png');
+		}
+
+	</style>
+
+	<script src="js/galeria.js"></script>
+	
+	<noscript>
+		<p>Tu navegador no soporta o tiene activado JavaScript.</p>
+		<p>Activelo si desea ver el contenido completo de la página.</p>
+	</noscript>
+
+</head>
+
+<body>
+
+	<img id="imgBanner" src="img/banner.png" alt="Undertale Cards"/>
+	<br/><br/><br/>
+
+	<img id="onStage" src="img/corazones_seis.png" alt="Seis Corazones"/>
+
+	<div id="galeria">
+		<button id="bIzq"></button>
+
+		<img class="imgPrevia" src="img/corazones_cuatro.png" alt="Cuatro Corazones"/>
+		<img class="imgPrevia" src="img/corazones_cinco.png" alt="Cinco Corazones"/>
+		<img class="imgPrevia" src="img/corazones_seis.png" alt="Seis Corazones"/>
+		<img class="imgPrevia" src="img/corazones_siete.png" alt="Siete Corazones"/>
+		<img class="imgPrevia" src="img/corazones_ocho.png" alt="Ocho Corazones"/>		
+
+
+		<button id="bDer"></button>
+
+	</div>
+
+</body>
+
+</html>
